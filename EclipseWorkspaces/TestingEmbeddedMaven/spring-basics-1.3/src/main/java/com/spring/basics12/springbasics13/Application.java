@@ -6,6 +6,9 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class Application {
+	
+	//Purpose: Have a search algorithm that dynamically makes use of
+	//either the bubble sort or quick sort depending on circumstance
 
 	public static void main(String[] args) {
 		
@@ -16,8 +19,6 @@ public class Application {
 				//Imported @Autowired to BinarySearchImpl
 			//Where to search for the beans?
 				//No need - Spring Boot already did that
-		
-		//BinarySearchImpl binarySearch = new BinarySearchImpl(new BubbleSortAlgorithm());
 		
 		//Application Context
 		

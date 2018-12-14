@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 //Primary annotation tells spring to use this class first instead of
 //the bubble sort class
 @Primary
+
 public class QuickSortAlgorithm implements SortAlgorithm{
 	
 	public int[] sort(int[] numbers) {
